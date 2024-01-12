@@ -42,6 +42,6 @@ public class SimpleCalendar {
             }
         }
 
-        System.out.println(); // Move to the next line after printing the calendar   
+        System.out.println();
     } 
 }
