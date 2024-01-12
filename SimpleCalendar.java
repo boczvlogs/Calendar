@@ -7,11 +7,11 @@ public class SimpleCalendar {
         int month = 0; // January is 0
         int year = 2024;
 
-        // Create a calendar instance and set the specified month and year
+        
         Calendar calendar = Calendar.getInstance();
         calendar.set(Calendar.MONTH, month);
         calendar.set(Calendar.YEAR, year);
-        calendar.set(Calendar.DAY_OF_MONTH, 1); // Set the day to the first day of the month
+        calendar.set(Calendar.DAY_OF_MONTH, 1);
 
         // Print the header
         System.out.println("  Sun  Mon  Tue  Wed  Thu  Fri  Sat");
