@@ -24,12 +24,12 @@ public class SimpleCalendar {
             System.out.print("     ");
         } 
 
-        // Get the number of days in the month
+
         int daysInMonth = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
 
-        // Print the days
+
         for (int day = 1; day <= daysInMonth; day++) {   
-            // Adjust spacing
+           
             if (day < 10) {
                 System.out.print("    " + day);
             } else {
