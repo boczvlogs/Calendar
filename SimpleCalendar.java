@@ -36,7 +36,6 @@ public class SimpleCalendar {
                 System.out.print("   " + day);
             }
 
-            // Move to the next line for the start of a new week
             if ((startDay + day) % 7 == 0) {
                 System.out.println();
             }
