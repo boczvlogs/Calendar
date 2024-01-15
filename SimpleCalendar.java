@@ -23,7 +23,7 @@ public class SimpleCalendar {
         for (int i = 0; i < startDay; i++) {
             System.out.print("     ");
         } 
-
+ 
 
         int daysInMonth = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);
 
