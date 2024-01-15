@@ -32,7 +32,7 @@ public class SimpleCalendar {
            
             if (day < 10) {
                 System.out.print("    " + day);
-            } else {
+            } else { 
                 System.out.print("   " + day);
             }
 
