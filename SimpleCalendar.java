@@ -9,8 +9,8 @@ public class SimpleCalendar {
 
         
         Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.MONTH, month);
-        calendar.set(Calendar.YEAR, year);
+        calendar.set(Calendar.MONTH, month);    
+        calendar.set(Calendar.YEAR, year); 
         calendar.set(Calendar.DAY_OF_MONTH, 1);
 
         // Print the header
@@ -18,7 +18,7 @@ public class SimpleCalendar {
 
         // Determine the starting day of the week
         int startDay = calendar.get(Calendar.DAY_OF_WEEK) - 1;
-
+ 
         // Print leading spaces
         for (int i = 0; i < startDay; i++) {
             System.out.print("     ");
