@@ -31,7 +31,7 @@ public class SimpleCalendar {
         for (int day = 1; day <= daysInMonth; day++) {   
            
             if (day < 10) {
-                System.out.print("    " + day);
+                System.out.print("    " + day); 
             } else { 
                 System.out.print("   " + day);
             }
