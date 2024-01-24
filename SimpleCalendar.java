@@ -19,7 +19,7 @@ public class SimpleCalendar {
         // Determine the starting day of the week
         int startDay = calendar.get(Calendar.DAY_OF_WEEK) - 1;
  
-        // Print leading spaces
+        // Print leading space
         for (int i = 0; i < startDay; i++) {
             System.out.print("     ");
         } 
