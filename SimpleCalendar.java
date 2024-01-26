@@ -10,7 +10,7 @@ public class SimpleCalendar {
         
         Calendar calendar = Calendar.getInstance();
         calendar.set(Calendar.MONTH, month);    
-        calendar.set(Calendar.YEAR, year); 
+        calendar.set(Calendar.YEAR, year);  
         calendar.set(Calendar.DAY_OF_MONTH, 1);
 
         // Print the header
